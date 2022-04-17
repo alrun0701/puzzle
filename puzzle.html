@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="puzzlecss.css" >
+<script src = "puzzlescript.js"> </script>
+<title>One piece quiz</title>
+</head>
+
+<body onload="ask()">
+<!-- A introduction of the quiz.-->
+<div>
+<h1 style="background-color:#cdf2f8;padding:20px;text-align:center">~One Piece知识问答~</h1>
+<p style="color: white;text-align:center">下面是十道与海贼王相关的问题，欢迎海米的你来挑战，也欢迎不了解海贼王的你来感受这部作品的魅力！</p>
+</div>
+
+<!-- the quiz.-->
+<form action="",method="post">
+<fieldset>
+<legend style="color: white;">每题10分</legend>
+
+<!--part1-->
+<fieldset>
+<h3 style="color: white; text-align:center;">共十题，均为单选</h3>
+<div id="grey">
+<fieldset class ="question">
+<h3 id="1">Q1: 图片中索隆的台词是与下面哪位角色决斗后说出的？（难度：★）</h3>
+<div style="text-align: center;">
+<img src="索隆.jpg" height="300">
+</div>
+<br/>
+<label><input type="radio" name="answer1" value="0"/>神·艾尼路</label>
+<br />
+<label><input type="radio" name="answer1"  value="0"/>库赞（青雉）</label>
+<br/>
+<label><input type="radio" name="answer1" value="0"/>巴索罗缪·大熊</label>
+<br/>
+<label><input type="radio" name="answer1"  value="10"/>乔拉可尔·米霍克（鹰眼）</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="2">Q2: 娜美左臂的纹身象征着什么？（难度：★★★）</h3>
+<div style="text-align: center;">
+<img src="娜美.jpg" height="300">
+</div>
+<br />
+<label id="2"><input type="radio" name="answer2" value="0" />金钱<label>
+<br/>
+<label><input type="radio" name="answer2" value="0"/>风与海</label>
+<br/>
+<label><input type="radio" name="answer2" value="0"/>指南针</label>
+<br/>
+<label><input type="radio" name="answer2" value="10"/>风车与橘子</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="3">Q3: 图片中这把刀是？（难度：★★） </h3>
+<div style="text-align: center;">
+<img src="三代鬼彻.jpg" height="300">
+</div>
+<label id="3"><input type="radio" name="answer3" value="0" />阎魔</label>
+<br />
+<label><input type="radio" name="answer3" value="0"/>雪走</label>
+<br />
+<label><input type="radio" name="answer3" value="10"/>三代鬼彻</label>
+<br />
+<label><input type="radio" name="answer3" value="0"/>和道一文字</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="4">Q4: 在阿拉巴斯坦篇，艾斯把什么东西交给了路飞？（难度：★★）</h3>
+<div style="text-align: center;">
+<img src="艾斯.png" height="300">
+</div>
+<br/>
+<label id="4"><input type="radio" name="answer4" value="0"/>永久指针</label>
+<br/>
+<label><input type="radio" name="answer4" value="10"/>生命卡</label>
+<br/>
+<label><input type="radio" name="answer4" value="0"/>电话虫</label>
+<br/>
+<label><input type="radio" name="answer4" value="0"/>桶装水</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="5">Q5: 在摩古镇的小酒馆里，谁的言论引起了酒馆里的人哄堂大笑？（难度：★★★）</h3>
+<div style="text-align: center;">
+<img src="嘲笑.png" height="300">
+</div>
+<br/>
+<label><input type="radio" name="answer5" value="0"/>路飞：这场架，绝对不能打</label>
+<br/>
+<label><input type="radio" name="answer5" value="0"/>索隆：酒店？这里是酒店啊......</label>
+<br/>
+<label id="5"><input type="radio" name="answer5" value="10"/>娜美：请告诉我们怎么去空岛</label>
+<br/>
+<label><input type="radio" name="answer5" value="0"/>黑胡子：人的梦想，是不会终结的</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="6">Q6: 黑胡子海贼团没有追捕到路飞，让路飞一行得以成功登陆空岛的原因是？（难度：★★★）</h3>
+<div style="text-align: center;">
+<img src="黑胡子.png" height="300">
+</div>
+<br/>
+<label id="6"><input type="radio" name="answer6" value="0"/>追捕行动被艾斯阻止</label>
+<br/>
+<label><input type="radio" name="answer6" value="10"/>船只被冲天海流吹散</label>
+<br/>
+<label><input type="radio" name="answer6" value="0"/>不知道路飞有一亿悬赏</label>
+<br/>
+<label><input type="radio" name="answer6" value="0"/>将追捕目标由路飞转向了艾斯</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="7">Q7: 空岛的历史正文上记载了什么信息？（难度：★★★★）</h3>
+<div style="text-align: center;">
+<img src="空岛.jpg" height="300">
+</div>
+<br/>
+<label id="7"><input type="radio" name="answer7" value="10"/>古代兵器波塞冬的所在位置</label>
+<br/>
+<label><input type="radio" name="answer7" value="0"/>乔伊波伊的谢罪文</label>
+<br/>
+<label><input type="radio" name="answer7" value="0"/>古代兵器冥王的相关情报</label>
+<br/>
+<label><input type="radio" name="answer7" value="0"/>空白一百年的相关线索</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="8">Q8: 下面一段文字是哪一岛屿的故事结束时的旁白内容：（难度：★★）</h3>
+<div id="wz" >
+  <p  id="center" style="text-align:center;">喷泉的顶部喷涌出美丽的泉水，<br>
+    工匠们的锤声此起彼伏，<br>
+    与生机勃勃的城市，<br>
+    构成了一曲和谐的乐章。<br>
+    海上列车吐着浓烟，<br>
+    承载着梦想一往直前。<br>
+    这座岛的名字就是——<br></p>
+  </div>
+<label id="8"><input type="radio" name="answer8" value="0"/>长链岛</label>
+<br/>
+<label><input type="radio" name="answer8" value="10"/>水都 七水之城</label>
+<br/>
+<label><input type="radio" name="answer8" value="0"/>香波地群岛</label>
+<br/>
+<label><input type="radio" name="answer8" value="0"/>鱼人岛</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="9">Q9: 下面一段文字是哪位角色去世时的旁白内容：（难度：★★★）</h3>
+<div id="wz" style="text-align:center;">
+  <p  id="center">尽管生命已经逝去，但其身躯依旧傲然挺立。<br>
+    失去了半边头部的情况下，他那力战杀敌的雄姿正可谓是“怪物”。<br>
+    在此次战役中，其所受伤共计267刀，所受子弹152发，所受炮弹46发，<br>
+    尽管如此，他那骄傲挺拔的背影也在诉说着他的海盗人生中——<br>
+    没有留下任何逃跑的伤痕。<br></p>
+  </div>
+<label id="9"><input type="radio" name="answer9" value="0"/>波特卡斯·D·艾斯</label>
+<br/>
+<label><input type="radio" name="answer9" value="0"/>唐吉诃德·罗西南迪（柯拉松）</label>
+<br/>
+<label><input type="radio" name="answer9" value="10"/>爱德华·纽盖特（白胡子）</label>
+<br/>
+<label><input type="radio" name="answer9" value="0"/>哥尔·D·罗杰</label>
+</fieldset>
+
+<fieldset class ="question">
+<h3 id="10">Q10: 以下哪句属于海贼王动画op的空耳？（难度：★）</h3>
+<label id="10"><input type="radio" name="answer10" value="10"/>哔哩哔哩完蛋啦</label>
+<br/>
+<label><input type="radio" name="answer10" value="0"/>哦，辣妹迷死他</label>
+<br/>
+<label><input type="radio" name="answer10" value="0"/>啊，那个郭德纲</label>
+<br/>
+<label><input type="radio" name="answer10" value="0"/>猪油骨，拿来卤，你又忘洗蛋</label>
+</fieldset>
+
+<br/>
+<p style="text-align:center">恭喜你完成了所有题目！</p>
+
+<div id="center">
+<button type="button" id="button" onclick="coreCount()">来看看你的总分</button>
+<button type="button" id="button" onclick="showWhichWrong()">来看看哪道题做错了</button>
+</div>
+
+<br/>
+</fieldset>
+</form>
+
+
+</body>
+
+</html>
